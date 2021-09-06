@@ -1,0 +1,102 @@
+html {
+  background-color: rgb(216, 198, 204);
+}
+body {
+  margin: 0 auto;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.content {
+  background-color: #f5a7d8;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 12px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.logo {
+  text-align: left;
+  padding: 0px 40px;
+}
+.menu {
+  padding: 0px 40px;
+}
+ul {
+  list-style: none;
+  position: relative;
+}
+li {
+  float: right;
+  padding: 10px;
+  width: 100px;
+}
+
+ul li.active {
+  background-color: rgb(216, 198, 204);
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.banner {
+  background: url("https://www.actorspaces.co.za/wp-content/uploads/2020/07/AAAABVPcHB31VAgN9Y64zFj6nnwpS3tThmMBlxBI3aFMgv8Ivb0PshfCj7kGxmO7KfMi7t9z-0HdP_OeUHAHjT87gwwsB5b8.jpg");
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+  text-align: left !important ;
+  padding: 140px 70px !important;
+}
+.banner > div {
+  width: 650px;
+}
+.banner .button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.movie {
+  text-align: left !important;
+  display: grid !important;
+  grid-template-columns: 60% 40% !important;
+  grid-gap: 10px !important;
+  padding: 76px !important;
+  color: rgb(128, 0, 79);
+}
+.movie .leftside {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 15px;
+}
+
+.movie .leftside > div {
+  background: #c9cdd6;
+  border-radius: 14px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+movie .rightside {
+  display: grid;
+  grid-template-columns: 100%;
+  background: #2e364e;
+  border-radius: 4px;
+  padding: 34px 24px 0px 24px;
+}
